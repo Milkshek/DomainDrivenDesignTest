@@ -3,3 +3,6 @@ services:
         image: shinsenter/symfony:latest
         volumes:
             - ./backend:/var/www/html
+        environment:
+            PHP_DISPLAY_ERRORS: 1
+            DEBUG: 1

@@ -6,3 +6,6 @@ bash:
 
 clear-cache:
 	docker compose exec web bin/console cache:clear
+
+tests:
+	docker compose exec web bin/phpunit

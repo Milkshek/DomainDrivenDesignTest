@@ -1,0 +1,4 @@
+createCart:
+    path: /cart
+    controller: App\Core\Cart\UserInterface\CreateCommandController::create
+    methods: [ 'POST' ]

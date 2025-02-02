@@ -1,0 +1,5 @@
+services:
+    web:
+        image: shinsenter/symfony:latest
+        volumes:
+            - ./backend:/var/www/html
